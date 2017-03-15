@@ -264,13 +264,13 @@
     				  </a>
     
     				  {block:NoteCount}
-    				  ,<a class="note-count" href="{Permalink}#notes">
+    				  |<a class="note-count" href="{Permalink}#notes">
     					{NoteCountWithLabel}
     				  </a>
     				  {/block:NoteCount}
     
     				  {block:RebloggedFrom}
-    				  ,<a class="reblog-link" href="{ReblogParentURL}">
+    				  |<a class="reblog-link" href="{ReblogParentURL}">
     					{ReblogParentName}
     				  </a>
     				  {/block:RebloggedFrom}
@@ -304,6 +304,9 @@
             {block:NextPage}
                 <a id="next" href="{NextPage}">Next &#187;</a>
             {/block:NextPage}
+	    <div style="width:150px; float:right;">
+                A theme by <a href="https://github.com/annetawamono/ChangingPastel">Anneta Wamono</a>
+            </div>
         </footer>
         <script type="text/javascript">
             $(document).ready(function(){
